@@ -1,6 +1,6 @@
 # World Weather Analysis Project
 
-Created a PlanMyTip app whereby any user can input the type of weather conditions they seek and the app will return specific destinations that meet her criteria. In addition, the user can use the app to plan her trips as it will return the location of specific hotels the user can stay at within her desired destinations.
+Created a PlanMyTrip app whereby any user can input the type of weather conditions they seek and the app will return specific destinations that meet her criteria. In addition, the user can use the app to plan her trips as it will return the location of specific hotels the user can stay at within her desired destinations.
 
 The app works by first collecting 2,000 pieces of location data across the globe and then filters through the data through the nearest.city method to come up with about 700 cities that we can analyze. We then requests weather data from the google weather maps API and store the infromation for all 700 cities in a separate list along with the names of those cities and their locations. Once we have this information, we then create a dataframe from the list and then export to a separate csv file so that it can accomplish additional tasks as requried by the app.
 
